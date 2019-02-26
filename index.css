@@ -22,3 +22,24 @@ nav a {
 nav a:hover {
     color: white;
 }
+#landing-image {
+    height: 772px;
+    background-color: #55c0ec;
+}
+#left {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    flex: 1;
+}
+#right {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    flex: 0 0 200px;
+}
