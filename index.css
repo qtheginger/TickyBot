@@ -22,6 +22,9 @@ nav a {
 nav a:hover {
     color: white;
 }
+#slack-icon {
+    display: inline;
+}
 #landing-image {
     height: 772px;
     background-color: #55c0ec;
@@ -42,4 +45,21 @@ nav a:hover {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     flex: 0 0 200px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+#top-left {
+    grid-column-start: 1;
+    grid-column-end: 2
+}
+#top-right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#bottom {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
