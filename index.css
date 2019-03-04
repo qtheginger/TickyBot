@@ -30,17 +30,35 @@ nav a:hover {
     color: rgb(64, 89, 107);
 }
 .slack-icon {
-    background-size: 20ox;
+    background-size: 20px;
 }
 .slack-icon:hover {
-    transform: rotate(20deg);
+    transform: rotate(18deg);
 }
 .add-slack {
     background-color: white;
     height: 50px;
-    width: 200px;
+    width: 250px;
     display: flex;
     justify-content: space-around;
+    border-radius: 5px;
+    padding-right: .5rem;
+    margin-right: 20px;
+}
+#slack-btn-2 {
+    background-color: rgb(64, 89, 107);
+    color: white;
+}
+#slack-btn-2 span {
+    margin-top: 25px;
+    transform: translateY(-50%);
+}
+.blue-text {
+    margin-top: 25px;
+    transform: translateY(-50%);
+}
+#robot {
+    margin-left: 20px;
 }
 
 #landing-image {
@@ -110,10 +128,12 @@ nav a:hover {
     max-width: 20%;
     min-width: 300px;
     text-align: center;
+    border-radius: 5 0 0 5;
 }
 
 .card-image {
     transform: scale(.8);
+
 }
 .card-background {
     background-color: rgb(64, 89, 107);
@@ -132,7 +152,15 @@ footer {
     display: block;
 }
 #top-btn {
-    width: 50px;
-    height: 50px;
     display: block;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    background-color: #ffd05a;
+    padding: .5rem;
+    border-radius: 5px;
 }
+#top-btn img {
+    width: 2rem;
+}
+

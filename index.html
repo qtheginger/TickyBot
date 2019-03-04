@@ -8,7 +8,7 @@
   </head>
   <body class="signika">
     <header>
-      <nav>
+      <nav id="nav">
         <a href="#landing-image">Home</a>
         <a href="#about">About</a>
         <a href="#features">Features</a>
@@ -29,7 +29,7 @@
           </a>
         </div>
         <div id="right">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 508 508"
+          <svg id="robot" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 508 508"
   width="400px" height="400px">
             <circle style="fill:#FFD05B;" cx="254" cy="254" r="254" />
             <path style="fill:#F9B54C;" d="M90.8,448.8C134.8,486,191.6,508,254,508s118.8-22.4,163.2-59.2H90.8z" />
@@ -144,12 +144,12 @@
       <div id="start">
         <h2>Start Using TickyBot Today</h2>
         <p>TickyBot allows Slack teams to manage their support tickets 100% inside Slack, without having to switch between different apps.</p>
-        <a class="add-slack">
+        <a class="add-slack" id="slack-btn-2">
             <img 
               src="resources/slack.svg"
               alt="Slack Logo"
               class="slack-icon"></img>
-             Add to Slack
+              <span>Add to Slack</span>
         </a>
         <p>...so you don't need to go back and forth with another app.</p>
       </div>
@@ -159,6 +159,6 @@
         The app is not creadted by, affiiliated with or supported by Slack Technologies, Inc.
       </p>
     </footer>
-    <ba id="top-btn"><img src="resources/top.svg"/></ba>
+    <a id="top-btn" href="#nav"><img src="resources/top.svg"/></a>
   </body>
 </html>
